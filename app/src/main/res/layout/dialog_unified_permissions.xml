@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/bg_secondary">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="22dp">
+
+        <!-- Header -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="JARVIS SYSTEM AUTHORIZATION"
+            android:textColor="@color/cyan_primary"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:letterSpacing="0.08" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="14dp"
+            android:text="UNIFIED HARDWARE PERMISSION REQUEST"
+            android:textColor="@color/text_muted"
+            android:textSize="10sp"
+            android:letterSpacing="0.12"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:lineSpacingExtra="3dp"
+            android:text="To provide full hands-free autonomous hardware control, Jarvis requires your one-time unified consent for device subsystems. This is presented once and remembered permanently across sessions."
+            android:textColor="@color/text_body"
+            android:textSize="12sp" />
+
+        <!-- Subsystem List Card -->
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            app:cardBackgroundColor="@color/bg_card"
+            app:cardCornerRadius="12dp"
+            app:strokeColor="@color/bg_card_border"
+            app:strokeWidth="1dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="14dp">
+
+                <!-- 0. Device Administrator -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="🛡️ Device Administrator Privileges"
+                    android:textColor="@color/cyan_primary"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:text="Elevates Jarvis to execute background security actions, automated screen lock, and policy management without manual prompts."
+                    android:textColor="@color/text_muted"
+                    android:textSize="11sp" />
+
+                <!-- 1. Microphone -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="🎙️ Microphone Voice Recognition"
+                    android:textColor="@color/cyan_primary"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:text="Continuous speech recognition &amp; 'Jarvis' trigger word wake-up."
+                    android:textColor="@color/text_muted"
+                    android:textSize="11sp" />
+
+                <!-- 2. Wi-Fi -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="📶 Wi-Fi Hardware Subsystem"
+                    android:textColor="@color/cyan_primary"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:text="Hands-free toggle, network connectivity panels &amp; Wi-Fi control."
+                    android:textColor="@color/text_muted"
+                    android:textSize="11sp" />
+
+                <!-- 3. Bluetooth -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="🔵 Bluetooth Wireless Control"
+                    android:textColor="@color/cyan_primary"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:text="Turn Bluetooth on or off &amp; scan for peripheral connections."
+                    android:textColor="@color/text_muted"
+                    android:textSize="11sp" />
+
+                <!-- 4. Do Not Disturb -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="🌙 Do Not Disturb (DND) Policy"
+                    android:textColor="@color/cyan_primary"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:text="Activate silent mode and manage notification interruption filters."
+                    android:textColor="@color/text_muted"
+                    android:textSize="11sp" />
+
+                <!-- 5. Volume Subsystem -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="🔊 Volume &amp; Audio Subsystem"
+                    android:textColor="@color/cyan_primary"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:text="Adjust device volume levels, mute audio &amp; manage sound modes."
+                    android:textColor="@color/text_muted"
+                    android:textSize="11sp" />
+
+                <!-- 6. Flashlight & Camera -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="📸 Camera &amp; Flashlight Torch"
+                    android:textColor="@color/cyan_primary"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:text="Switch camera flash torch on/off &amp; launch camera viewfinder."
+                    android:textColor="@color/text_muted"
+                    android:textSize="11sp" />
+
+                <!-- 7. Mobile Data -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="📱 Mobile Data &amp; Connectivity"
+                    android:textColor="@color/cyan_primary"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Access cellular data panels &amp; network connectivity settings."
+                    android:textColor="@color/text_muted"
+                    android:textSize="11sp" />
+
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- Security & Persistence Note -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="18dp"
+            android:lineSpacingExtra="2dp"
+            android:text="✓ Stored securely on device — asked only once.\n✓ Every hardware toggle is executed seamlessly with explicit consent.\n✓ No further permission prompts will appear unless manually revoked in settings."
+            android:textColor="@color/emerald_active"
+            android:textSize="11sp" />
+
+        <!-- Action Buttons -->
+        <Button
+            android:id="@+id/btnAuthorizeAll"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginBottom="8dp"
+            android:backgroundTint="@color/cyan_primary"
+            android:text="AUTHORIZE ALL &amp; REMEMBER FOREVER"
+            android:textColor="@color/bg_primary"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnDismissUnified"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="NOT NOW"
+            android:textColor="@color/text_muted"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+</ScrollView>

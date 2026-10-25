@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg_primary">#0A0E17</color>
+    <color name="bg_secondary">#111726</color>
+    <color name="bg_card">#161F33</color>
+    <color name="bg_card_border">#1E2C48</color>
+    <color name="bg_input">#1A233A</color>
+    
+    <color name="cyan_primary">#00E5FF</color>
+    <color name="cyan_glow">#4000E5FF</color>
+    <color name="cyan_dim">#0097A7</color>
+    <color name="blue_accent">#2979FF</color>
+    <color name="gold_accent">#FFD54F</color>
+    <color name="emerald_active">#00E676</color>
+    <color name="ruby_error">#FF5252</color>
+
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#80DEEA</color>
+    <color name="text_body">#CFD8DC</color>
+    <color name="text_muted">#78909C</color>
+</resources>

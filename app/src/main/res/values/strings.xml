@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Jarvis Arthur</string>
+    <string name="jarvis_title">JARVIS 4.0</string>
+    <string name="jarvis_subtitle">YOUR AI COPILOT // ARTHUR</string>
+    <string name="status_ready">READY TO CHAT // ONLINE</string>
+    <string name="status_listening">"LISTENING... WHAT'S ON YOUR MIND?"</string>
+    <string name="status_processing">THINKING...</string>
+    <string name="status_speaking">JARVIS SPEAKING...</string>
+    <string name="initial_response">"Hey Arthur! Jarvis is online and ready to roll. Ask me anything or tap the reactor to start talking!"</string>
+    <string name="accessibility_description">"Enables Jarvis to run in the background, detect wake-word commands like Jarvis, and interact with system settings (Bluetooth, Do Not Disturb, and Volume) after a one-time user permission grant."</string>
+    <string name="device_admin_label">Jarvis Autonomous Controller</string>
+    <string name="device_admin_description">Authorizes Jarvis as Device Administrator to automate hardware controls (Bluetooth, Do Not Disturb, volume, Wi-Fi) and execute autonomous device security in the background.</string>
+</resources>
